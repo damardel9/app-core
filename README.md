@@ -99,6 +99,16 @@ Codex CLI supports a rich set of configuration options, with preferences stored 
 
 ---
 
+### Local development
+
+The repository uses pnpm workspaces and Prettier for formatting. To get set up:
+
+1. Install the required tooling (Node.js 22+ and pnpm 10.8.1); see [PNPM.md](./PNPM.md) for installation notes.
+2. Install dependencies with `pnpm install`.
+3. Run `pnpm format` to validate formatting or `pnpm format:fix` to automatically apply formatting changes.
+
+---
+
 ## License
 
 This repository is licensed under the [Apache-2.0 License](LICENSE).
